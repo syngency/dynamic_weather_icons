@@ -594,7 +594,7 @@ class WeatherGlyph {
     'wi-wmo4680-99': 0xf056
   };
 
-  static int getIconGlyph(String _glyph) {
+  static int? getIconGlyph(String _glyph) {
 
     if(!_glyphs.containsKey(_glyph)) {
       throw 'Invalid weather icon code: $_glyph';

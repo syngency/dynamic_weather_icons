@@ -7,7 +7,7 @@ class WeatherIcon {
 
   static IconData getIcon(String code) {
     return IconData(
-      WeatherGlyph.getIconGlyph(code),
+      WeatherGlyph.getIconGlyph(code)!,
       fontFamily: 'WeatherIcons',
       fontPackage: 'dynamic_weather_icons',
     );
